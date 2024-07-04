@@ -1,0 +1,54 @@
+body{
+    background-color: #f9e4c9;
+}
+img{
+    display: block;
+    width: 7vw;
+    height: 7vw;
+    background-color: white;
+    border-radius: 90%;
+    padding: 0.3vw;
+    margin-bottom: -5.5vw;
+    margin-left: 45vw;
+    animation-name: movimiento;
+    animation-duration: 2s;
+}
+@keyframes movimiento{
+    0%{margin-top: 100%;}
+    90%{margin-top: 0vw;}
+    98%{margin-top: 13vw;}
+    100%{margin-top: 10vw;}
+}
+#blanco{
+    background-color: white;
+    width: 40vw;
+    height: 25vw;
+    margin: auto;
+    text-align: center;
+    justify-items: center;
+    border: solid transparent;
+}
+.titu{
+    color: #f091a0;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 7vw;
+}
+.conte{
+    opacity: 70%;
+    font-size: 0.891rem;
+    margin-top: 0.5vw;
+}
+.verde{
+    background-color: #009ab1;
+    width: 15vw;
+    margin: 3vw auto;
+    color: white;
+    padding: 0.8vw;
+    font-size: 0.8rem;
+    transition: all;
+}
+.verde:hover{
+    background-color: #f34e60;
+    cursor: pointer;
+}

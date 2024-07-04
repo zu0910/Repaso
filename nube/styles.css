@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow: hidden;
 }
 #cielo{
     background-image: url(img/sky.jpg);
@@ -12,12 +13,24 @@ body{
 #nube img{
     width: 12vw;
     height: 7vw;
-    margin: 8vw 4vw;
+    margin: 8vw;
+    margin-left: -20vw;
     animation-name: nube;
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
 }
 @keyframes nube{
-    10% {margin-left: 117vw;}
+    100% {margin-left: 100vw;}
+}
+#cloud img{
+    width: 12vw;
+    height: 7vw;
+    margin-left: -30vw;
+    margin-top: -5vw;
+    animation-name: cloud;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+@keyframes cloud{
+    100%{margin-left: 100vw;}
 }
