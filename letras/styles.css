@@ -9,6 +9,24 @@ body{
     font-size: 6rem;
     margin: auto;
 }
+.conte input{
+    display: none;
+}
+.conte input:checked~nav{
+    display: block;
+}
+nav{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+img{
+    width: 3vw;
+    height: 3vw;
+}
 .u{
     color:#80bfb2;
     height: 14rem;
