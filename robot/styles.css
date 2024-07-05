@@ -2,7 +2,33 @@ body{
     background-color: #f9e4c9;
     overflow: hidden;
 }
+.contenedor{
+    display: grid;
+    grid-template-columns: 0.1fr 0.6fr;
+    background-color: white;
+}
+.conte input{
+    display: none;
+}
+.conte input:checked~nav{
+    display: block;
+}
+nav{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 2vw 2vw;
+    font-size: 1.2rem;
+    color: black;
+    
+}
 img{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.robot{
     position: relative;
     z-index: 1;
     display: block;
