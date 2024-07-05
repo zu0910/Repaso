@@ -1,5 +1,6 @@
 body{
     background-color: #f9e4c9;
+    overflow: hidden;
 }
 img{
     display: block;
@@ -9,20 +10,21 @@ img{
     border-radius: 90%;
     padding: 0.3vw;
     margin-bottom: -5.5vw;
+    margin-top: 6vw;
     margin-left: 45vw;
     animation-name: movimiento;
     animation-duration: 2s;
 }
 @keyframes movimiento{
-    0%{margin-top: 100%;}
+    0%{margin-top: 60vw;}
     90%{margin-top: 0vw;}
-    98%{margin-top: 13vw;}
-    100%{margin-top: 10vw;}
+    97%{margin-top: 8vw;}
+
 }
 #blanco{
     background-color: white;
-    width: 40vw;
-    height: 25vw;
+    width: 30vw;
+    height: 20vw;
     margin: auto;
     text-align: center;
     justify-items: center;
