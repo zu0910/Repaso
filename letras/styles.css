@@ -14,7 +14,7 @@ body{
     height: 14rem;
     transform: rotateX(180deg);
     animation-name: u;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 @keyframes u{
     0% {transform: rotateX(90deg);}
@@ -26,7 +26,7 @@ body{
     color: #8898a2;
     transform: rotateX(180deg);
     animation-name: p;
-    animation-duration: 7s;
+    animation-duration: 4s;
     
 }
 @keyframes p{
@@ -39,7 +39,7 @@ body{
     color: #80bfb2;
     transform: rotateX(180deg);
     animation-name: i;
-    animation-duration: 9s;
+    animation-duration: 5s;
     
 }
 @keyframes i{
@@ -52,7 +52,7 @@ body{
     color:#8898a2;
     transform: rotateX(180deg);
     animation-name: o;
-    animation-duration: 11s;
+    animation-duration: 6s;
     
 }
 @keyframes o{
@@ -65,7 +65,7 @@ body{
     color:#80bfb2;
     transform: rotateX(180deg);
     animation-name: v;
-    animation-duration: 13s;
+    animation-duration: 7s;
     
 }
 @keyframes v{
@@ -78,7 +78,7 @@ body{
     color: #8898a2;
     transform: rotateX(180deg);
     animation-name: e;
-    animation-duration: 15s;
+    animation-duration: 8s;
     
 }
 @keyframes e{
@@ -91,7 +91,7 @@ body{
     color: #80bfb2;
     transform: rotateX(180deg);
     animation-name: r;
-    animation-duration: 17s;
+    animation-duration: 9s;
     
 }
 @keyframes r{
